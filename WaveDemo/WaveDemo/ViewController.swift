@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     var waveView: WaveView?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.哈哈哈哈哈哈哈哈
        self.waveView = WaveView(frame: CGRect.init(x:100, y:200,width: 130,height: 130))
         self.view.addSubview(self.waveView!)
     }
